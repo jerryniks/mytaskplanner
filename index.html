@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+
+    <title>Our Project</title>
+  </head>
+  <body>
+    
+<!-- Modal Start -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Add Task</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+        <!-- Form Start-->
+          <div class="row">
+            <div class="col-auto">
+              <label class="name">Name</label>
+            </div>
+            <div class="col-auto">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Select Task</option>
+                <option value="pre prepare sauces">Pre Prepare Sauces</option>
+                <option value="table layout">Table Layout</option>
+                <option value="crockery cleaning">Crockery Cleaning</option>
+                <option value="crockery cleaning">Stock Refrigarator</option>
+                <option value="crockery cleaning">Cleaning</option>
+                <option value="crockery cleaning">Check Inventory for Food Items</option>
+              </select>
+            </div>
+          </div>
+              <br>
+            <div class="row">
+              <div class="col-auto">
+                <label class="description">Description</label>
+              </div>
+              <div class="col-auto">
+                <div class="form-floating">
+                  <textarea class="form-control" placeholder="Leave a comment here" id="description" style="height: 30px"></textarea>
+                </div>
+              </div>
+            </div>
+              <br>
+            <div class="row">
+              <div class="col-auto">
+                <label class="assigned-to">Assigned To</label>
+              </div>
+              <div class="col-auto">
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+              </div>
+            </div>
+              <br>
+              <div class="row">
+                <div class="col-auto">
+                  <label for="newTaskDueDate">Due Date</label>
+                  <input type="date" class="form-control" id="newTaskDueDate">
+                </div>
+
+                </div>  
+              </div>
+              <br>
+              <div class="row">
+                <div class="col-auto">
+                  <label class="assigned-to">Status</label>
+                </div>
+                  <div class="col-auto">
+                    <select class="form-select" aria-label="Default select example">
+                      <option selected>Select Status</option>
+                      <option value="pre prepare sauces">TO DO</option>
+                      <option value="table layout">IN PROGRESS</option>
+                      <option value="crockery cleaning">REVIEW</option>
+                      <option value="crockery cleaning">DONE</option>
+                    </select>
+                  </div>
+              </div>
+        </div>
+        <!-- Form End -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Reset</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal End -->
+<header class="text-center">
+  <h1>Edit Task</h1>
+</header>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Heading -->
+<header class="text-center">
+  <h1>Task Manager</h1>
+</header>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  New Task
+</button>
+<!-- Modal Start -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Add Task</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+        <!-- Form Start-->
+          <div class="row">
+            <div class="col-auto">
+              <label class="name">Name</label>
+            </div>
+            <div class="col-auto">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Select Task</option>
+                <option value="pre prepare sauces">Pre Prepare Sauces</option>
+                <option value="table layout">Table Layout</option>
+                <option value="crockery cleaning">Crockery Cleaning</option>
+                <option value="crockery cleaning">Stock Refrigarator</option>
+                <option value="crockery cleaning">Cleaning</option>
+                <option value="crockery cleaning">Check Inventory for Food Items</option>
+              </select>
+            </div>
+          </div>
+              <br>
+            <div class="row">
+              <div class="col-auto">
+                <label class="description">Description</label>
+              </div>
+              <div class="col-auto">
+                <div class="form-floating">
+                  <textarea class="form-control" placeholder="Leave a comment here" id="description" style="height: 30px"></textarea>
+                </div>
+              </div>
+            </div>
+              <br>
+            <div class="row">
+              <div class="col-auto">
+                <label class="assigned-to">Assigned To</label>
+              </div>
+              <div class="col-auto">
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+              </div>
+            </div>
+              <br>
+              <div class="row">
+                <div class="col-auto">
+                  <label for="newTaskDueDate">Due Date</label>
+                  <input type="date" class="form-control" id="newTaskDueDate">
+                </div>
+
+                </div>  
+              </div>
+              <br>
+              <div class="row">
+                <div class="col-auto">
+                  <label class="assigned-to">Status</label>
+                </div>
+                  <div class="col-auto">
+                    <select class="form-select" aria-label="Default select example">
+                      <option selected>Select Status</option>
+                      <option value="pre prepare sauces">TO DO</option>
+                      <option value="table layout">IN PROGRESS</option>
+                      <option value="crockery cleaning">REVIEW</option>
+                      <option value="crockery cleaning">DONE</option>
+                    </select>
+                  </div>
+              </div>
+        </div>
+        <!-- Form End -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Reset</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal End -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Edit Task
+</button>
+<!-- Modal Start -->
+<div class="container">
+ 
+</div>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+        <!-- Form Start-->
+          <div class="row">
+            <div class="col-auto">
+              <label class="name">Name</label>
+            </div>
+          
+            <div class="col-auto">
+              <input type="text" class="form-control" id="name" placeholder="Edit Task">
+            </div>  
+          </div>
+
+              <br>
+            <div class="row">
+              <div class="col-auto">
+                <label class="description">Description</label>
+              </div>
+              <div class="col-auto">
+                <div class="form-floating">
+                  <textarea class="form-control" placeholder="Task details" id="description" style="height: 30px"></textarea>
+                </div>
+              </div>
+            </div>
+              <br>
+            <div class="row">
+              <div class="col-auto">
+                <label class="assigned-to">Assigned To</label>
+              </div>
+              <div class="col-auto">
+                <input type="text" class="form-control" id="assigned-to" placeholder="">
+              </div>
+            </div>
+              <br>
+              <div class="row">
+                <div class="col-auto">
+                  <label class="assigned-to">Due Date</label>
+                </div>
+                <div class="col-auto">
+                  <input type="text" class="form-control" id="due-date" placeholder="dd/mm/yyyy">
+                </div>  
+              </div>
+              <br>
+              <div class="row">
+                <div class="col-auto">
+                  <label class="assigned-to">Status</label>
+                </div>
+                  <div class="col-auto">
+                    <select class="form-select" aria-label="Default select example">
+                      <option selected>Select Status</option>
+                      <option value="pre prepare sauces">TO DO</option>
+                      <option value="table layout">IN PROGRESS</option>
+                      <option value="crockery cleaning">REVIEW</option>
+                      <option value="crockery cleaning">DONE</option>
+                    </select>
+                  </div>
+              </div>
+        </div>
+        <!-- Form End -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Reset</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal End -->
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
